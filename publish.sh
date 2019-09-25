@@ -1,4 +1,4 @@
- cd ../trevorhere.github.io
+ cd ../jtcooper.github.io
 
 rm asset-manifest.json
 rm index.html
@@ -15,9 +15,9 @@ npm run build
 # mv build/manifest.json ../trevorhere.github.io/manifest.json
 # mv build/service-worker.js ../trevorhere.github.io/service-worker.js
 # mv build/index.html ../trevorhere.github.io/index.html
-mv -v build/* ../trevorhere.github.io/
+mv -v build/* ../jtcooper.github.io/
 
-cd ../trevorhere.github.io/
+cd ../jtcooper.github.io/
 
 git add .
 git commit -am 'deploying build'
